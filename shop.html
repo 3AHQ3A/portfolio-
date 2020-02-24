@@ -1,0 +1,45 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.min.js"></script>
+	<script src="script/catalogInfo.js"></script>
+	<script src="MVC/models/base.js"></script>
+	<script src="MVC/models/main.js"></script>
+	<script src="MVC/models/category.js"></script>
+	<script src="MVC/models/item.js"></script>
+	<script src="MVC/models/cart.js"></script>
+	<script src="MVC/views/base.js"></script>
+	<script src="MVC/views/main.js"></script>
+	<script src="MVC/views/category.js"></script>
+	<script src="MVC/views/item.js"></script>
+	<script src="MVC/views/cart.js"></script>
+	<script src="MVC/controller/app.js"></script>
+	<script src="MVC/app.js"></script>
+	<script src="script/anim.js"></script>
+	<script src="script/cart_realize.js"></script>
+</head>
+
+<body>
+	<header>
+		<a href="shop.html"><img src="img/logo.jpg" class="logo"></a>
+		<img src="img/cart.jpg" class="cart">
+	</header>
+	<div id="content"></div>
+	<footer>
+		<p class="footer_text">
+			<span><a data-href="category_mouse">мыши</a></span>
+			<span><a data-href="category_keyboard">клавиатуры</a></span>
+			<span><a data-href="category_headphones">гарнитура</a></span>
+			<span><a data-href="category_mousepad">коврики</a></span></p>
+	</footer>
+	<div class="layout"></div>
+	<div id="popup">
+		<img src="img/cross.png" class="close">
+		<div id="popup-content"></div>
+	</div>
+</body>
+
+</html>

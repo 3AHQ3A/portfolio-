@@ -1,0 +1,158 @@
+header {
+    height: 100px;
+    background-color: black;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+    cursor: pointer;
+    float: left;
+}
+
+body {
+    background-color: #212020;
+    font-family: Arial, sans-serif, "Times New Roman";
+    padding: 0;
+    margin: 0;
+}
+
+.goods {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    width: 590px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.layout {
+    opacity: 50%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    display: none;
+}
+
+#popup {
+    border: solid 1px;
+    height: 80%;
+    width: 80%;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: none;
+    background-color: #212020;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.close {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+    margin-right: 5%;
+}
+
+.left {
+    float: left;
+    margin-left: 5%;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer_text {
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    word-spacing: 50px;
+    cursor: pointer;
+}
+
+.backgroundImage {
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+.cart {
+    height: 100px;
+    width: 200px;
+    float: right;
+    right: 0px;
+    cursor: pointer;
+}
+
+.goods:hover {
+    background-color: #330303;
+    transition: background-color 600ms linear;
+}
+
+.header_text {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: red;
+}
+
+#popup-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popupText {
+    margin-left: 40px;
+}
+
+.item-page {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+}
+
+.list {
+    margin-left: 150px;
+}
+
+.itemImage {
+    height: 500px;
+    width: 550px;
+}
+
+.item {
+    color: red;
+    margin-left: 5%;
+    margin-right: 20%;
+    font-size: 30px;
+    white-space: pre-wrap;
+    padding: 5px;
+    border: solid 1px;
+}
+
+.remove {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.ToCartButton {
+    margin-bottom: 20px;
+    margin-left: 43%;
+    cursor: pointer;
+}
